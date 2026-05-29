@@ -4,7 +4,7 @@ import os
 from aiogram import Bot, Dispatcher, F
 from aiogram.filters import Command
 from aiohttp import web
-from config import API_TOKEN # Agar tokeningizni config.py da saqlasangiz, bu qolishi mumkin
+
 from database import init_db
 
 # Handlers faylından barlıq kerekli funkciyalardı hám halatlardı import qılamız
